@@ -1,25 +1,26 @@
-/*
-body {
-    background-color: gray;
+.headers {
+    list-style-type: none;
+    width: 100%;
+    background: red;
 }
-
-h1 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 40px;
-	color: rgb(244, 164, 96);
-}
-p {
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(72, 209, 204);
-}
-ul {
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(72, 209, 204);
-}
-li {
+.headers sections{
     float: left;
     display: block;
     text-align: center;
     padding: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+    background: linear-gradient(to right, blue, pink);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
-*/
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+}
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
