@@ -1,36 +1,183 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
+    <!-- Head -->
 	<head>
-		<link rel="stylesheet" type="text/css" href="mystyle.css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-		<title>Oliver's Website | Home</title>
+		<title>Oliver Odendaal</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	
-	<body>
-        <nav>
-            <ul class = "headers">
-                <li><sections>Home</sections></li>
-                <li><sections>Test</sections></li>
-            </ul>
-        </nav>
-        <br><br>
-        <!--List and header for tasks I am working on-->
-        <h2>Tasks I am working on:</h2>
-        <ul>
-            <li>Making a task list</li>
-        </ul>
-        <!--List and header for tasks to complete-->
-		<h2>Tasks to complete:</h2>
-        <ul>
-            <li>Add information about myself</li>
-            <li>Attach my resume</li>
-            <li>Add some of the courses/events/competitions I have attended</li>
-            <li>Start working on a style sheet (CSS)</li>
-        </ul>
-        <!--List and header for tasks completed-->
-        <h2>Tasks completed:</h2>
-        <ul>
-            <li>Upload this basic website to GitHub</li>
-        </ul>
+    
+	<body class="landing">
+        
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1>My <strong><a href="https://github.com/yodasnow">Github</a></strong></h1>
+            <nav id="nav">
+                <ul>
+                    <!--
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="generic.html">Generic</a></li>
+                    <li><a href="elements.html">Elements</a></li>
+                    -->
+                </ul>
+            </nav>
+        </header>
+
+        <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+        <!-- Banner -->
+        <section id="banner">
+            <h2>Oliver Odendaal</h2>
+            <p>Student, coder, SOMETHING_ELSE.<br><br><br></p>
+        </section>
+
+        <!-- About me -->
+        <section id="about me" class="wrapper style1">
+            <div class="container 75%">
+                <div class="row 200%">
+                    <div class="6u 12u$(medium)">
+                        <header class="major">
+                            <h2>About me</h2>
+                        </header>
+                    </div>
+                    <div class="6u$ 12u$(medium)">
+                        <p></p>
+                        <p>Dolorum aspernatur maxime libero ratione quidem distinctio, placeat fugiat laborum voluptatum enim neque soluta vel sunt id ex veritatis. Labore rerum, odit sapiente, alias mollitia magnam exercitationem modi amet earum quia atque ipsum voluptas asperiores quas laboriosam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Line in between the sections -->
+        <hr>
+
+        <!-- Education/camps -->
+        <section id="education" class="wrapper">
+				<div class="container">
+					<header class="major special">
+						<h2>Education and camps</h2>
+					</header>
+                    <div class="table-wrapper">
+				        <table class="alt">
+                            <!-- Head of the table for schools -->
+                            <thead>
+                                <tr>
+                                    <th>School</th>
+                                    <th>Year(s)</th>
+                                    <th>Grade's completed</th>
+                                </tr>
+                            </thead>
+                            <!-- Body of the tables for schools -->
+                            <tbody>
+                                <tr>
+                                    <td>Upper Canada College (UCC)</td>
+                                    <td>2010 - 2018 (present)</td>
+                                    <td>Grade 3 - Grade 10 (present)</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>TODO</td>
+                                    <td>TODO</td>
+                                    <td>TODO</td>
+                                </tr>
+                            </tbody>
+                            <!-- Head of the table for camps -->
+                            <thead>
+                                <tr>
+                                    <th>Camp</th>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <!-- Body of the tables for camps -->
+                            <tbody>
+                                <tr>
+                                    <td>TODO</td>
+                                    <td>TODO</td>
+                                    <td>TODO</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+				</div>
+			</section>
+        
+        <!-- Line in between the sections -->
+        <hr>
+
+        <!-- Projects -->
+        <section id="projects" class="wrapper style1">
+            <div class="container">
+                <header class="major special">
+                    <h2>Projects</h2>
+                </header>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <div class="image rounded"><a href="index.html"><img src="images/pic04.jpg" alt=""/></a></div>
+                        <div class="content">
+                            <header>
+                                <h4>Lorem ipsum</h4>
+                                <p>Lorem ipsum dolor sit</p>
+                            </header>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore esse tenetur accusantium porro omnis, unde mollitia totam sit nesciunt consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Line in between the sections -->
+        <hr>
+        
+        <!-- GitHub Repositories -->
+        <section id="github repos" class="wrapper style1">
+            <div class="container">
+                <header class="major special">
+                    <h2>GitHub Repositories</h2>
+                </header>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <div class="image rounded"><a href="https://github.com/yodasnow/Algorithmic-Coding"><img src="images/ccc.png" alt=""/></a></div>
+                        <div class="content">
+                            <header>
+                                <h4>Algoritmic Coding</h4>
+                            </header>
+                            <p>This repository holds my code for most of my algorithmic coding. I have tried to organize it by the different types of problems, for example: CCC, Project Euler and Coding Bat. I will try to add as many different types of contests as I can (most will be from <a href="https://dmoj.ca/">DMOJ</a>)</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="image rounded"><a href="https://github.com/yodasnow/ContestCodingSenior1Cpp"><img src="images/cpp.png" alt=""/></a></div>
+                        <div class="content">
+                            <header>
+                                <h4>Contest Coding Senior 1 (CCC)</h4>
+                            </header>
+                            <p>This repository holds code for a Senior CCC Competition Coding class at Olympiads School. The code is all done in C++ and will hold mostly CCC solutions while also having some other code for my learning of C++.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Line in between the sections -->
+        <hr>
+
+        <!-- Footer for Github -->
+        <footer id="footer">
+            <div class="container">
+                <ul class="icons">
+                    <li><a href="https://github.com/yodasnow" class="icon fa-github"></a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
 	</body>
 </html>
