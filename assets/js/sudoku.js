@@ -2,9 +2,7 @@ let baseBoard = [[[[5, 3, -1], [6, -1, -1], [-1, 9, 8]], [[-1, 7, -1], [1, 9, 5]
 let board = [[[[5, 3, -1], [6, -1, -1], [-1, 9, 8]], [[-1, 7, -1], [1, 9, 5], [-1, -1, -1]], [[-1, -1, -1], [-1, -1, -1], [-1, 6, -1]]], [[[8, -1, -1], [4, -1, -1], [7, -1, -1]], [[-1, 6, -1], [8, -1, 3], [-1, 2, -1]], [[-1, -1, 3], [-1, -1, 1], [-1, -1, 6]]], [[[-1, 6, -1], [-1, -1, -1], [-1, -1, -1]], [[-1, -1, -1], [4, 1, 9], [-1, 8, -1]], [[2, 8, -1], [-1, -1, 5], [-1, 7, 9]]]];
 
 let values = [];
-console.log("Debug 1")
 function sectionCheck(){
-    console.log("Section check ran")
     for(let mrf = 0; mrf < 3; mrf ++){
         for(let sf = 0; sf < 3; sf ++){
             for(let srf = 0; srf < 3; srf ++){
@@ -13,12 +11,17 @@ function sectionCheck(){
                 }
             }
             for(let i = 1; i < 10; i++){
-                if(values.count(i) > 1){
-                    values.clear();
+                let count = 0;
+                for(let iter = 0; iter < values.length; ++iter){
+                    if(values[iter] == i)
+                        count++;
+                }
+                if(count>1){
+                    values.length = 0
                     return(false);
                 }
             }
-            values.clear()
+            values.length = 0;
         }
     }
     return(true);
@@ -29,15 +32,22 @@ function verticalCheck(){
             for(let mrf = 0; mrf < 3; mrf ++){
                 for(let srf = 0; srf < 3; srf ++){
                     values.push(board[mrf][sf][srf][valf]);
+                    console.log(values);
                 }
             }
             for(let i = 1; i < 10; i++){
-                if (values.count(i) > 1){
-                    values.clear();
+                let count = 0;
+                for(let iter = 0; iter < values.length; ++iter){
+                    if(values[iter] == i)
+                        count++;
+                }
+                if(count>1){
+                    values.length = 0;
                     return(false);
                 }
             }
-            values.clear();
+            values.length = 0;
+            console.log(values);
         }
     }
     return(true);
@@ -51,38 +61,46 @@ function horizontalCheck(){
                 }
             }
             for(let i = 1; i < 10; i++){
-                if(values.count(i) > 1){
-                    values.clear();
+                let count = 0;
+                for(let iter = 0; iter < values.length; ++iter){
+                    if(values[iter] == i)
+                        count++;
+                }
+                if(count>1){
+                    values.length = 0;
                     return(false);
                 }
             }
-            values.clear();
+            values.length = 0;
         }
     }
     return(true);
 }
 function check(){
-    console.log("Ran function check");
     if(verticalCheck() && horizontalCheck() && sectionCheck()){
         return(true);
     }
     return(false);
 }
-check();
 
 function updateBoard(){
     for(let mrf = 0; mrf < 3; mrf ++){
         for(let sf = 0; sf < 3; sf ++){
             for(let srf = 0; srf < 3; srf ++){
                 for(let valf = 0; valf < 3; valf ++){
-                    document.getElementById(String(mrf) + "," + String(sf) + "," + String(srf) + "," + String(valf)).innerText = board[mrf][sf][srf][valf];
+                    if(board[mrf][sf][srf][valf] != -1){
+                        document.getElementById(String(mrf) + "," + String(sf) + "," + String(srf) + "," + String(valf)).innerText = board[mrf][sf][srf][valf];
+                    }
                 }
             }
         }
     }
 }
 
+updateBoard();
 
+
+/**
 let curVal = 1;
 let mr = 0;
 let sr = 0;
@@ -168,7 +186,7 @@ while(mr < 3){
                     console.log("Choice 2");
                     while(true){
                         board[mr][s][sr][val] = curVal;
-                        boardValid = check;
+                        boardValid = check();
                         if(!boardValid && curVal <= 8){
                             curVal++;
                         }
@@ -246,6 +264,7 @@ while(mr < 3){
                     }
                 }
                 else if(board[mr][s][sr][val] == baseBoard[mr][s][sr][val]){
+                    console.log(increase)
                     console.log("Choice 4");
                     if(!increase){
                         if(val != 0){
@@ -292,3 +311,4 @@ while(mr < 3){
     }
 }
 updateBoard();
+*/
