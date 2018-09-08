@@ -99,8 +99,6 @@ function updateBoard(){
 
 updateBoard();
 
-
-/**
 let curVal = 1;
 let mr = 0;
 let sr = 0;
@@ -311,4 +309,3 @@ while(mr < 3){
     }
 }
 updateBoard();
-*/
