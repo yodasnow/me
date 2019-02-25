@@ -1,4 +1,0 @@
-This is a Brave Payments publisher verification file.
-
-Domain: yodasnow.github.io
-Token: a49f31c74d853ebf9cc91556a02eb66532335c3034ef551685c2657c4e2c99d5
