@@ -1,3 +1,7 @@
-.noUpper {
+.nada {
     text-transform: none;
+    font-weight: normal;
+}
+.noBold {
+    font-weight: normal;
 }
