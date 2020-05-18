@@ -1,0 +1,219 @@
+@import "_config.scss";
+/*
+All native components
+ */
+
+//Header
+header{
+  position: relative;
+  display:block;
+  width: 100%;
+  background: $black;
+  color: $white;
+  height: 90px;
+
+  .logo{
+    position: absolute;
+    top: 50%; left: 15px;
+    @include translateY(-50%);
+  }
+
+  nav,
+  nav ul,
+  nav ul li{
+    margin: 0;
+    padding: 0;
+  }
+
+  nav{
+    position: absolute;
+    top: 50%; right: 15px;
+    @include translateY(-50%);
+
+    ul li{
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 15px;
+
+      &.last{
+        margin: 0;
+      }
+      a{
+        font-size: 19px;
+        line-height: normal;
+        color: $white;
+      }
+    }
+  }
+}
+
+//Footer
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: $black;
+  color: $white;
+  nav,
+  nav ul,
+  nav ul li{
+    margin: 0;
+    padding: 0;
+  }
+
+  nav{
+    position: absolute;
+    top: 50%; left: 50%;
+    @include translate(-50%, -50%);
+
+    ul li{
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 25px;
+
+      &.last{
+        margin: 0;
+      }
+      a{
+        font-size: 19px;
+        line-height: normal;
+        color: $white;
+      }
+    }
+  }
+}
+
+
+/*
+Extra changes to components
+ */
+
+//Rotating background images
+.images{
+  //Phones and small devices
+  position: relative;
+  text-align: center;
+  h1{
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include translate(-50%, -100%);
+  }
+  h3{
+    font-size: 20px;
+    color: $graphite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include translate(-50%, 20%);
+  }
+
+  .titleImage{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  @media only screen and (min-device-width: 1280px){ //Regular laptops 1920 x 1080
+    .titleImage {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+    h1{
+      font-size: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include translate(-50%, -150%);
+    }
+    h3{
+      font-size: 20px;
+      color: $graphite;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include translate(-50%, 0%);
+    }
+  }
+  @media only screen and (min-device-width: 1921px){ //Larger screens
+    .titleImage {
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+    }
+  }
+}
+
+//Button list in About Me section
+.aboutMeButtonList{
+  button{
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+  }
+  nav,
+  nav ul,
+  nav ul li{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    position: absolute;
+    left: 50%;
+    @include translate(-50%, 0%);
+
+    ul li{
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 25px;
+
+      &.last{
+        margin: 0;
+      }
+    }
+  }
+}
+
+//Center a div
+.centerDiv{
+  position: absolute;
+  width: 1000px;
+  left: 50%;
+  @include translateX(-50%);
+}
+
+//Div centering v2 as other one was glitchy af
+.ccenterDiv{
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+}
+
+//Left div
+.leftDiv{
+  float: left;
+  width: 50%;
+}
+
+//Right div
+.rightDiv{
+  float:right;
+  width: 50%;
+}
+
+//Body header formatting
+.bodyHeader{
+  padding-top: 10px;
+  text-align: center;
+}
+
+//Make a new line with \n in string
+.new-line{
+  white-space: pre-line;
+}

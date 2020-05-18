@@ -1,0 +1,56 @@
+/*
+Vars
+ */
+$black: #010000;
+$white: #ffffff;
+$graphite: #383428;
+$lightgrey: #777777;
+$blue: #459FF0;
+
+/*
+Mixins
+ */
+@mixin translateY($e){
+  -webkit-transform: translateY($e);
+  -mox-transform: translateY($e);
+  transform: translateY($e);
+}
+@mixin translateX($e){
+  -webkit-transform: translateX($e);
+  -mox-transform: translateX($e);
+  transform: translateX($e);
+}
+@mixin translate($e, $i){
+  -webkit-transform: translate($e, $i);
+  -mox-transform: translate($e, $i);
+  transform: translate($e, $i);
+}
+@mixin transition($e){
+  -webkit-transition:$e;
+  -moz-transition:$e;
+  transition:$e;
+}
+
+/*
+Main
+ */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: $black;
+  font-weight: 400;
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+  @include transition(.4s ease-in-out);
+  cursor: pointer;
+  &:hover{
+    color: $blue;
+    @include transition(.4s ease-in-out);
+  }
+}
+.container-fluid{
+  line-height: 24px;
+}
