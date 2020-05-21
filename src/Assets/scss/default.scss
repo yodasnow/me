@@ -191,7 +191,7 @@ Extra changes to components
 //Div centering v2 as other one was glitchy af
 .ccenterDiv{
   margin: auto;
-  width: 50%;
+  width: 75%;
   padding: 5px;
 }
 
@@ -211,6 +211,49 @@ Extra changes to components
 .bodyHeader{
   padding-top: 10px;
   text-align: center;
+}
+
+//Projects and repositories
+.projectsMain{
+  display: inline-block;
+  width: 49%;
+  height: 250px;
+  margin: 0.5%;
+  border: 1px solid $graphite;
+  padding: 0.5%;
+  h3{
+    font-weight: normal;
+    font-size: 25px;
+  }
+  h4{
+    font-weight: normal;
+    font-size: 20px;
+  }
+  .active{
+    color: lawngreen;
+  }
+  .pause{
+    color: orange;
+  }
+  .closed{
+    color: grey;
+  }
+  .imgl{
+    width: 40%;
+    height: 100%;
+    float: left;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 0.5%;
+  }
+  .imgr{
+    width: 40%;
+    height: 100%;
+    float: right;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 0.5%;
+  }
 }
 
 //Make a new line with \n in string

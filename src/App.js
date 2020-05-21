@@ -10,6 +10,8 @@ import Header from './components/headerComponent/header';
 import Images from './components/pages/images';
 import AboutMe from './components/pages/aboutMe';
 
+import Projects from './components/pages/projects'
+
 import ResumeContact from './components/pages/resumeContect';
 
 import Spacer from './components/pages/spacer'
@@ -27,6 +29,8 @@ class App extends Component{
 
                     <Images animDuration={5000}/>
                     <AboutMe animDuration={10}/>
+
+                    <Projects />
 
                     <ResumeContact />
 
