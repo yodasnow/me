@@ -73,7 +73,7 @@ class AboutMe extends Component{
     }
     render(){
         return(
-            <div className="container-fluid">
+            <div className="container-fluid" id="aboutMe">
                 <div className="ccenterDiv">
                     <div className="bodyHeader">
                         <h2>About me</h2>

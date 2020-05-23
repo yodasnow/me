@@ -6,7 +6,7 @@ import imgWAC from '../../Assets/images/wac.png';
 import imgSAID from '../../Assets/images/said.png';
 import imgNight from '../../Assets/images/theNight.jpg';
 import imgMaze from '../../Assets/images/maze.png';
-import imgCodingBat from '../../Assets/images/codingBat.png';
+import imgCodingBat from '../../Assets/images/codingBat.jpg';
 
 //import img from '../../Assets/images/';
 
@@ -32,9 +32,8 @@ class Projects extends Component{
                     {/** CodingBat **/}
                     <div className="projectsMain">
                         <img src={imgCodingBat} className="imgl"></img>
-                        <h3>Algorithmic Coding</h3>
-                        <h4 className="active">Active</h4>
-                        <p>test</p>
+                        <h3>CodingBat Python One Liners</h3>
+                        <h4 className="closed">Closed/Complete</h4>
                     </div>
                     {/** WAC Website **/}
                     <div className="projectsMain">

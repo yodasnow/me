@@ -13,13 +13,13 @@ class Header extends Component{
                 <nav>
                     <ul>
                         <li className="first">
-                            <Link to="/">Home</Link>
+                            <a href="#">Home</a>
                         </li>
                         <li>
-                            <Link to="/AboutMe">About me</Link>
+                            <a href="#aboutMe">About me</a>
                         </li>
                         <li className="last">
-                            <Link to="/">Contact</Link>
+                            <a href="#contact">Contact Me & Resume</a>
                         </li>
                     </ul>
                 </nav>

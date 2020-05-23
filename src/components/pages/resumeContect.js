@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 class ResumeContact extends Component{
     render(){
         return(
-            <div className="container-fluid">
+            <div className="container-fluid" id="contact">
                 <div className="ccenterDiv">
                     <div className="leftDiv">
                         <div className="bodyHeader">
