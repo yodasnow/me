@@ -13,7 +13,7 @@ import imgCodingBat from '../../Assets/images/codingBat.jpg';
 class Projects extends Component{
     render(){
         return(
-            <div className="container-fluid">
+            <div className="container-fluid" id="projects">
                 <div className="ccenterDiv">
                     {/** Website **/}
                     <div className="projectsMain">

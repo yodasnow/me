@@ -18,6 +18,9 @@ class Header extends Component{
                         <li>
                             <a href="#aboutMe">About me</a>
                         </li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
                         <li className="last">
                             <a href="#contact">Contact Me & Resume</a>
                         </li>
