@@ -28,7 +28,7 @@ class App extends Component{
                 <div className="App">
                     <Header />
 
-                    <Images animDuration={5000}/>
+                    <Images animDuration={15}/>
                     <AboutMe animDuration={10}/>
 
                     <Projects />
