@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import imgtest from '../../Assets/images/cosmonaut.jpg';
+import imgLogo from '../../Assets/images/logoBlack.png';
 import imgAlgorithm from '../../Assets/images/algorithmicCoding.jpg';
 import imgWAC from '../../Assets/images/wac.png';
 import imgSAID from '../../Assets/images/said.png';
@@ -21,7 +21,7 @@ class Projects extends Component{
                     <p>Not all of my past projects and repositories are listed here. These are some of the more recent and ones that I am more proud of. For the rest of the projects, they are mostly hosted on my <a href="https://github.com/yodasnow">GitHub</a>, but some of the code may be messy and not representative of my current skill/ability.</p>
                     {/** Website **/}
                     <div className="projectsMain">
-                        <img src={imgtest} className="imgl"></img>
+                        <a href="https://github.com/yodasnow/yodasnow.github.io"><img src={imgLogo} className="imgl"></img></a>
                         <h3>Personal Website</h3>
                         <h4 className="active">Active</h4>
                         <p>
@@ -30,7 +30,7 @@ class Projects extends Component{
                     </div>
                     {/** Algorithmic coding **/}
                     <div className="projectsMain">
-                        <img src={imgAlgorithm} className="imgr"></img>
+                        <a href="https://github.com/yodasnow/Algorithmic-Coding"><img src={imgAlgorithm} className="imgr"></img></a>
                         <h3>Algorithmic Coding</h3>
                         <h4 className="pause">Paused</h4>
                         <p>
@@ -39,7 +39,7 @@ class Projects extends Component{
                     </div>
                     {/** CodingBat **/}
                     <div className="projectsMain">
-                        <img src={imgCodingBat} className="imgl"></img>
+                        <a href="https://github.com/yodasnow/OneLineCodingBat"><img src={imgCodingBat} className="imgl"></img></a>
                         <h3>CodingBat Python One Liners</h3>
                         <h4 className="closed">Closed/Complete</h4>
                         <p>
@@ -48,7 +48,7 @@ class Projects extends Component{
                     </div>
                     {/** WAC Website **/}
                     <div className="projectsMain">
-                        <img src={imgWAC} className="imgr"></img>
+                        <a href="https://github.com/worldaffairsconference/worldaffairs.ucc.on.ca"><img src={imgWAC} className="imgr"></img></a>
                         <h3>WAC Website</h3>
                         <h4 className="closed">Closed/Complete</h4>
                         <p>
@@ -57,7 +57,7 @@ class Projects extends Component{
                     </div>
                     {/** WAC Scripts **/}
                     <div className="projectsMain">
-                        <img src={imgWAC} className="imgl"></img>
+                        <a href="https://github.com/worldaffairsconference/scripts"><img src={imgWAC} className="imgl"></img></a>
                         <h3>WAC Scripts</h3>
                         <h4 className="closed">Closed/Complete</h4>
                         <p>
@@ -66,7 +66,7 @@ class Projects extends Component{
                     </div>
                     {/** BLGHackForChange **/}
                     <div className="projectsMain">
-                        <img src={imgSAID} className="imgr"></img>
+                        <a href="https://github.com/yodasnow/BLGHackForChange"><img src={imgSAID} className="imgr"></img></a>
                         <h3>BLG Hack For Change Website</h3>
                         <h4 className="closed">Closed/Complete</h4>
                         <p>
@@ -75,7 +75,7 @@ class Projects extends Component{
                     </div>
                     {/** BLGHackForChange DAPP **/}
                     <div className="projectsMain">
-                        <img src={imgSAID} className="imgl"></img>
+                        <a href="https://github.com/yodasnow/BLGHackForChangeDApp"><img src={imgSAID} className="imgl"></img></a>
                         <h3>BLG Hack For Change DAPP</h3>
                         <h4 className="closed">Closed/Complete</h4>
                         <p>
@@ -84,7 +84,7 @@ class Projects extends Component{
                     </div>
                     {/** TheNight **/}
                     <div className="projectsMain">
-                        <img src={imgNight} className="imgr"></img>
+                        <a href="https://github.com/yodasnow/TheNight"><img src={imgNight} className="imgr"></img></a>
                         <h3>TheNight</h3>
                         <h4 className="closed">Closed/Complete</h4>
                         <p>
@@ -93,7 +93,7 @@ class Projects extends Component{
                     </div>
                     {/** Maze Game **/}
                     <div className="projectsMain">
-                        <img src={imgMaze} className="imgl"></img>
+                        <a href="https://github.com/yodasnow/MazeGame"><img src={imgMaze} className="imgl"></img></a>
                         <h3>Maze Game</h3>
                         <h4 className="closed">Closed/Complete</h4>
                         <p>
