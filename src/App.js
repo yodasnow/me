@@ -10,11 +10,12 @@ import Header from './components/headerComponent/header';
 import Images from './components/pages/images';
 import AboutMe from './components/pages/aboutMe';
 
-import Projects from './components/pages/projects'
+import Projects from './components/pages/projects';
+import Todo from './components/pages/todo';
 
 import ResumeContact from './components/pages/resumeContect';
 
-import Spacer from './components/pages/spacer'
+import Spacer from './components/pages/spacer';
 import Footer from './components/footerComponent/footer';
 
 //Includes
@@ -31,6 +32,7 @@ class App extends Component{
                     <AboutMe animDuration={10}/>
 
                     <Projects />
+                    <Todo />
 
                     <ResumeContact />
 

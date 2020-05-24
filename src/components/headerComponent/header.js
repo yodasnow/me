@@ -2,13 +2,14 @@ import React, {Component} from 'react';
 import {
     Link
 } from "react-router-dom";
+import logo from '../../Assets/images/logo.png';
 
 class Header extends Component{
     render(){
         return(
             <header>
                 <div className="logo">
-                    LOGO
+                    <img src={logo} className="logo"></img>
                 </div>
                 <nav>
                     <ul>

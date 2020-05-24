@@ -45,6 +45,11 @@ header{
       }
     }
   }
+
+  .logo{
+    width: 70px;
+    height: 70px;
+  }
 }
 
 //Footer
@@ -84,7 +89,6 @@ footer{
     }
   }
 }
-
 
 /*
 Extra changes to components
@@ -215,6 +219,7 @@ Extra changes to components
 
 //Projects and repositories
 .projectsMain{
+  vertical-align: top; //https://avtex.com/articles/css-weird-inline-block-behavior
   display: inline-block;
   width: 49%;
   height: 250px;
@@ -228,6 +233,9 @@ Extra changes to components
   h4{
     font-weight: normal;
     font-size: 18px;
+  }
+  p{
+    font-size: 14px;
   }
   .active{
     color: lawngreen;
