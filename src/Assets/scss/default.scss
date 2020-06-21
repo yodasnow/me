@@ -226,12 +226,64 @@ Extra changes to components
   text-align: center;
 }
 
+//Redone project formatting
+.projectContainer{
+  display:inline-flex;
+  margin: 25px auto;
+}
+.leftProject{
+  /*height:inherit;
+  display:inline-block;
+  border: 1px solid $graphite;
+  margin: 0.5%;
+  padding: 0.5%;
+  width: 100%;
+  align-items: stretch;*/
+  height: inherit;
+  display: inline-block;
+  border: 1px solid $graphite;
+  border-radius: 5px;
+  max-width: 550px;
+  margin-right: 18px;
+  align-items: stretch;
+  padding: 15px;
+  width: 100%;
+  image {
+    width: 40%;
+    height: 100%;
+    float: left;
+    object-fit: scale-down;
+    border-radius: 20px;
+    padding: 0.5%;
+  }
+}
+.rightProject{
+  height: inherit;
+  display: inline-block;
+  border: 1px solid $graphite;
+  border-radius: 5px;
+  max-width: 550px;
+  margin-right: 18px;
+  align-items: stretch;
+  padding: 15px;
+  width: 100%;
+  image {
+    width: 40%;
+    height: 100%;
+    float: right;
+    object-fit: scale-down;
+    border-radius: 20px;
+    padding: 0.5%;
+  }
+}
+
+
 //Projects and repositories
 .projectsMain {
-  vertical-align: top; //https://avtex.com/articles/css-weird-inline-block-behavior
+  //vertical-align: top; //https://avtex.com/articles/css-weird-inline-block-behavior
   display: inline-block;
   width: 49%;
-  height: 250px;
+  //height: 250px;
   margin: 0.5%;
   border: 1px solid $graphite;
   padding: 0.5%;

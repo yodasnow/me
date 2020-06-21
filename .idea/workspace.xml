@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fa93b2a-230c-4dfa-a9da-bc7029d49552" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Oliver_O.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Oliver_O.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yodasnow.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yodasnow.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/css/default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/css/default.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/css/default.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/css/default.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/php/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/scss/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/scss/_config.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/scss/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/scss/default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footerComponent/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footerComponent/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/headerComponent/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/headerComponent/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/aboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/aboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/contactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/contactMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/homePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/homePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/resume.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/resumeContect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/resumeContect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/spacer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/spacer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/node_modules/" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,56 +36,6 @@
   </component>
   <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Assets/scss/default.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="149">
-                  <caret line="129" column="7" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
-                  <folding>
-                    <element signature="e#69#723#0" />
-                    <element signature="e#740#1256#0" />
-                    <element signature="e#2432#2844#0" />
-                    <element signature="e#2871#2955#0" />
-                    <element signature="e#3016#3238#0" />
-                    <element signature="e#3259#3315#0" />
-                    <element signature="e#3338#3392#0" />
-                    <element signature="e#3430#3476#0" />
-                    <element signature="e#3520#4432#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Assets/scss/_config.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,99 +47,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/components/pages/spacer.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/resumeContect.js" />
-        <option value="$PROJECT_DIR$/src/components/footerComponent/footer.js" />
-        <option value="$PROJECT_DIR$/src/components/headerComponent/header.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/projects.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/todo.js" />
-        <option value="$PROJECT_DIR$/src/Assets/scss/default.scss" />
-        <option value="$PROJECT_DIR$/src/components/pages/images.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/aboutMe.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2404" />
-    <option name="y" value="140" />
-    <option name="width" value="1932" />
-    <option name="height" value="1052" />
-  </component>
   <component name="ProjectId" id="1budbdUnAtkt9mrrNWvLm41fGvD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="footerComponent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="headerComponent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -178,7 +62,7 @@
     <property name="javascript.karma.karma_node_package_dir" value="" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Assets/images" />
+    <property name="last_opened_file_path" value="/usr/bin/scss" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -198,18 +82,6 @@
       <recent name="C:\Users\Oliver_O\Documents\GitHub\yodasnow.github.io\src\Assets\main1" />
       <recent name="C:\Users\Oliver_O\Documents\GitHub\yodasnow.github.io\src\Assets\codingBat" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.grunt">
@@ -233,6 +105,7 @@
         <script value="start" />
       </scripts>
       <node-interpreter value="project" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -257,61 +130,58 @@
       <workItem from="1590002078046" duration="1776000" />
       <workItem from="1590260537046" duration="13109000" />
       <workItem from="1590285354158" duration="953000" />
-      <workItem from="1590286467443" duration="1180000" />
+      <workItem from="1590286467443" duration="1255000" />
+      <workItem from="1590289127395" duration="291000" />
+      <workItem from="1592695558657" duration="10000" />
+      <workItem from="1592698354332" duration="3651000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22206000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1928" y="147" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20916754" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24785659" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4582882" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589486640822">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="2821" y="473" width="461" height="325" key="#File_Watchers" timestamp="1592699483376">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2821" y="473" width="461" height="325" key="#File_Watchers/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592699483376" />
+    <state x="2654" y="364" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592698802077">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589486640822" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1589489661131">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="2654" y="364" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592698802077" />
+    <state x="2906" y="388" width="578" height="626" key="#npm_start" timestamp="1592698483159">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2906" y="388" width="578" height="626" key="#npm_start/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592698483159" />
+    <state x="2994" y="482" width="659" height="681" key="EditFileWatcherDialog" timestamp="1592699482165">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2994" y="482" width="659" height="681" key="EditFileWatcherDialog/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592699482165" />
+    <state x="3111" y="461" key="FileChooserDialogImpl" timestamp="1592699315844">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3111" y="461" key="FileChooserDialogImpl/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592699315844" />
+    <state width="2537" height="285" key="GridCell.Tab.0.bottom" timestamp="1592711276099">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589489661131" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1589489661131">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2537" height="285" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592711276099" />
+    <state width="2537" height="285" key="GridCell.Tab.0.center" timestamp="1592711276099">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589489661131" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1589489661131">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2537" height="285" key="GridCell.Tab.0.center/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592711276099" />
+    <state width="2537" height="285" key="GridCell.Tab.0.left" timestamp="1592711276099">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589489661131" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1589489661131">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2537" height="285" key="GridCell.Tab.0.left/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592711276099" />
+    <state width="2537" height="285" key="GridCell.Tab.0.right" timestamp="1592711276099">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589489661131" />
+    <state width="2537" height="285" key="GridCell.Tab.0.right/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592711276099" />
     <state x="1115" y="623" key="NewPhpFileDialog" timestamp="1589487229038">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -320,150 +190,5 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589486093134" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Assets/php/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Assets/images/nebula.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Assets/images/said.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/spacer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/resume.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" lean-forward="true" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/headerComponent/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/footerComponent/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="76" lean-forward="true" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/resumeContect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Assets/images/main3.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#129#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Assets/scss/default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="129" column="7" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
-          <folding>
-            <element signature="e#69#723#0" />
-            <element signature="e#740#1256#0" />
-            <element signature="e#2432#2844#0" />
-            <element signature="e#2871#2955#0" />
-            <element signature="e#3016#3238#0" />
-            <element signature="e#3259#3315#0" />
-            <element signature="e#3338#3392#0" />
-            <element signature="e#3430#3476#0" />
-            <element signature="e#3520#4432#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Assets/scss/_config.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/images.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/aboutMe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
