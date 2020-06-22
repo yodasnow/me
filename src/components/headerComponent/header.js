@@ -9,7 +9,7 @@ class Header extends Component{
         return(
             <header>
                 <div className="logo">
-                    <img src={logo} className="logo"></img>
+                    <a href="https://github.com/yodasnow"><img src={logo} className="logo"></img></a>
                 </div>
                 <nav>
                     <ul>
