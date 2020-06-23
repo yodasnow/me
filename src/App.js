@@ -3,6 +3,8 @@ import {
     BrowserRouter as Router,
     Route
 } from 'react-router-dom';
+import ReactGA from 'react-ga';
+
 
 //Components
 import Header from './components/headerComponent/header';
@@ -20,6 +22,9 @@ import Footer from './components/footerComponent/footer';
 
 //Includes
 import './Assets/css/default.min.css';
+
+ReactGA.initialize('UA-135109533-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component{
     render(){

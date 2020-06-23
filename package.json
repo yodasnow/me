@@ -13,6 +13,7 @@
     "react-bootstrap": "^1.0.1",
     "react-crossfade-image": "^1.2.0",
     "react-dom": "^16.13.1",
+    "react-ga": "^3.0.0",
     "react-image-fade-in": "^1.1.0",
     "react-mailto": "^0.4.0",
     "react-router-dom": "^5.1.2",
