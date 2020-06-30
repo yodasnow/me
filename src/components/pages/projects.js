@@ -7,6 +7,7 @@ import imgSAID from '../../Assets/images/said.png';
 import imgNight from '../../Assets/images/theNight.jpg';
 import imgMaze from '../../Assets/images/maze.png';
 import imgCodingBat from '../../Assets/images/codingBat.jpg';
+import imgPlatformer from '../../Assets/images/platformer.png';
 
 //import img from '../../Assets/images/';
 
@@ -26,6 +27,15 @@ class Projects extends Component{
                         <h4 className="active">Active</h4>
                         <p>
                             This website serves two purposes. Firstly, it is meant to be a way for me to show off stuff about me in an easy and accessible way. Secondly, it allows me to learn different aspects of website development - the first verion used plain HTML, JS and a pre-stylized stylesheet, whereas this version uses ReactJS and Bootstrap (I still don't know what the Bootstrap part is actually doing but hey).
+                        </p>
+                    </div>
+                    {/** Platformer **/}
+                    <div className="projectsMain">
+                        <a href="https://github.com/yodasnow/Platformer"><img src={imgPlatformer} className="imgl"></img></a>
+                        <h3>Platformer game</h3>
+                        <h4 className="active">Active</h4>
+                        <p>
+                            This repository has all of the code related to my new "passion project game". I am working on it with a few friends to keep ourselves entertained and thinking during the summer break. It has some algorithms for cave generation that are in Python, but otherwise is entirely made with C++ using SDL2 for graphics and currently SFML for UDP packet sending for multiplayer support.
                         </p>
                     </div>
                     {/** Algorithmic coding **/}
