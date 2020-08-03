@@ -13,7 +13,7 @@ class Footer extends Component{
                             <a href="https://github.com/yodasnow/">Hosted on Github</a>
                         </li>
                         <li className="last">
-                            Last updated: 2020-06-30
+                            Last updated: 2020-08-02
                         </li>
                     </ul>
                 </nav>
