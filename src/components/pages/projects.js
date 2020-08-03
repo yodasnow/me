@@ -8,6 +8,7 @@ import imgNight from '../../Assets/images/theNight.jpg';
 import imgMaze from '../../Assets/images/maze.png';
 import imgCodingBat from '../../Assets/images/codingBat.jpg';
 import imgPlatformer from '../../Assets/images/platformer.png';
+import ingMusic from '../../Assets/images/musicFolderManagement.png';
 
 //import img from '../../Assets/images/';
 
@@ -22,29 +23,38 @@ class Projects extends Component{
                     <p>Not all of my past projects and repositories are listed here. These are some of the more recent and ones that I am more proud of. For the rest of the projects, they are mostly hosted on my <a href="https://github.com/yodasnow">GitHub</a>, but some of the code may be messy and not representative of my current skill/ability.</p>
                     {/** Website **/}
                     <div className="projectsMain">
-                        <a href="https://github.com/yodasnow/yodasnow.github.io"><img src={imgLogo} className="imgl"></img></a>
+                        <a href="https://github.com/yodasnow/me"><img src={imgLogo} className="imgl"></img></a>
                         <h3>Personal Website</h3>
                         <h4 className="active">Active</h4>
                         <p>
                             This website serves two purposes. Firstly, it is meant to be a way for me to show off stuff about me in an easy and accessible way. Secondly, it allows me to learn different aspects of website development - the first verion used plain HTML, JS and a pre-stylized stylesheet, whereas this version uses ReactJS and Bootstrap (I still don't know what the Bootstrap part is actually doing but hey).
                         </p>
                     </div>
-                    {/** Platformer **/}
-                    <div className="projectsMain">
-                        <a href="https://github.com/yodasnow/Platformer"><img src={imgPlatformer} className="imgl"></img></a>
-                        <h3>Platformer game</h3>
-                        <h4 className="active">Active</h4>
-                        <p>
-                            This repository has all of the code related to my new "passion project game". I am working on it with a few friends to keep ourselves entertained and thinking during the summer break. It has some algorithms for cave generation that are in Python, but otherwise is entirely made with C++ using SDL2 for graphics and currently SFML for UDP packet sending for multiplayer support.
-                        </p>
-                    </div>
                     {/** Algorithmic coding **/}
                     <div className="projectsMain">
                         <a href="https://github.com/yodasnow/Algorithmic-Coding"><img src={imgAlgorithm} className="imgl"></img></a>
                         <h3>Algorithmic Coding</h3>
-                        <h4 className="pause">Paused</h4>
+                        <h4 className="active">Active</h4>
                         <p>
                             This repository holds the majority of my "algorithmic" code. This ranges from code for the CCC to the ECOO and some problems hosted on DMOJ (online judge). As of recently I have been enjoying this style of coding less so it is currently inactive.
+                        </p>
+                    </div>
+                    {/** Music folder management **/}
+                    <div className="projectsMain">
+                        <a href="https://github.com/yodasnow/MusicFolderManagement"><img src={ingMusic} className="imgl"></img></a>
+                        <h3>Music Folder Management</h3>
+                        <h4 className="closed">Closed/Complete</h4>
+                        <p>
+                            This is a Python script that organizes music that has pre-existing ID3V2 tags into a tidy file structure.
+                        </p>
+                    </div>
+                    {/** Platformer **/}
+                    <div className="projectsMain">
+                        <a href="https://github.com/yodasnow/Platformer"><img src={imgPlatformer} className="imgl"></img></a>
+                        <h3>Platformer Game</h3>
+                        <h4 className="pause">Paused</h4>
+                        <p>
+                            This repository has all of the code related to my new "passion project game". I am working on it with a few friends to keep ourselves entertained and thinking during the summer break. It has some algorithms for cave generation that are in Python, but otherwise is entirely made with C++ using SDL2 for graphics and currently SFML for UDP packet sending for multiplayer support.
                         </p>
                     </div>
                     {/** CodingBat **/}
