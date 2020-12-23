@@ -32,6 +32,31 @@ Vectors - https://www.svgrepo.com/vectors/
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        const desiredRepo = "me";
+        const dateTagClass = ".date";
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                let repos = JSON.parse(this.responseText);
+                repos.forEach((repo)=>{
+                    if (repo.name == desiredRepo) {
+                        var splitted = repo.updated_at.split("-");
+                        var splittedSecondHalf = splitted[2].split("T");
+                        var day = splittedSecondHalf[0];
+                        var month = splitted[1];
+                        var year = splitted[0];
+                        document.getElementById('last-modified').textContent =`Last updated: ${year}-${month}-${day}`;
+                    }
+                });
+            }
+        };
+        xhttp.open("GET", "https://api.github.com/users/yodasnow/repos", true);
+        xhttp.send();
+    </script>
 </head>
 <body>
 
@@ -123,16 +148,23 @@ Vectors - https://www.svgrepo.com/vectors/
             <div class="col-lg-4">
                 <img src="person.svg" width="140" height="140">
                 <h2>About me</h2>
-                <p>My name is Oliver Odendaal and I am a current student at University of Waterloo.</p>
+                <p>My name is Oliver Odendaal and I am a current student at University of Waterloo taking Computer
+                    Science (2025). I have mainly done algorithmic programming, but have done a wide variety of other
+                    topics. I enjoy taking on different projects whether I get to finish them or not. I currently know
+                    how to program well in Python, Java and C++ and have been learning HTML, Javascript and CSS. I have
+                    been trying to transition to Linux instead of Windows as it gives me a lot more freedom (and I enjoy
+                    the learning curve).
+                </p>
                 <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img src="keyboard.svg" width="140" height="140">
                 <h2>Hobbies/Interests</h2>
-                <p>My hobbies mainly revolve around computers. I love both building them and using them for programming and others tasks.
-                    I enjoy all types of programing, but I tend to enjoy more algorithmic programming and some game development.
-                    I currently have one past attempt at making a game on my GitHub and I am gearing up towards a new game idea as I really want to get a more finished product.
-                    I also enjoy rock climbing and bouldering, and motorcycling (both on road and off road).
+                <p>My hobbies mainly revolve around computers. I love both building them and using them for programming
+                    and others tasks. I enjoy all types of programing, but I tend to enjoy more algorithmic programming
+                    and some game development. I currently have one past attempt at making a game on my GitHub and I am
+                    gearing up towards a new game idea as I really want to get a more finished product. I also enjoy
+                    rock climbing, bouldering, scuba diving and motorcycling (both on-road and off-road).
                 </p>
                 <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
             </div><!-- /.col-lg-4 -->
@@ -155,14 +187,21 @@ Vectors - https://www.svgrepo.com/vectors/
 
         <hr class="featurette-divider">
 
+        <h2 style="font-size: 60px; text-align: center; padding-bottom: 75px;">Programming Projects</h2>
+
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <h2 class="featurette-heading">Personal Website</h2>
+                <p class="lead">This is my personal website and what you are viewing right now! It is both a way for me
+                    to practice my web development skills and show off some of my accomplishments. This is at least the
+                    third iteration with many others that never even made it up. The first iteration published used a
+                    template as I did not really care about the CSS side of it. The second iteration used ReactJS as I
+                    thought that it would be a smart idea to use it, but I now know that for something simple like this,
+                    React is just pure overkill. With this version it just uses Bootstrap and regular HTML and JS.
+                </p>
             </div>
             <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+                <a href="https://github.com/yodasnow/me"><img src="website.svg" class="img-center"></a>
             </div>
         </div>
 
@@ -170,12 +209,11 @@ Vectors - https://www.svgrepo.com/vectors/
 
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+                <h2 class="featurette-heading">Algorithmic Coding</h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+                <a href="https://github.com/yodasnow/Algorithmic-Coding"><img src="code.svg" class="img-center"></a>
             </div>
         </div>
 
@@ -183,12 +221,23 @@ Vectors - https://www.svgrepo.com/vectors/
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                <h2 class="featurette-heading">Platformer Game</h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
             <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                <a href="https://github.com/yodasnow/Platformer"><img src="game.svg" class="img-center"></a>
+            </div>
+        </div>
 
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Music Folder Management</h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <a href="https://github.com/yodasnow/MusicFolderManagement"><img src="music.svg" class="img-center"></a>
             </div>
         </div>
 
@@ -201,8 +250,13 @@ Vectors - https://www.svgrepo.com/vectors/
 
     <!-- FOOTER -->
     <footer class="container">
-        <p class="float-end"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <ul style="text-align:center">
+            <li class="footer-align">Made with Bootstrap</li>
+            <li class="footer-align">Hosted on Github</li>
+            <li class="footer-align" id="last-modified"></li>
+            <li class="footer-align"><a href="https://www.svgrepo.com/">Vector image source</a></li>
+            <li class="footer-align"><a href="#">Back to top</a></li>
+        </ul>
     </footer>
 </main>
 
