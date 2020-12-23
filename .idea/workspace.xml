@@ -1,12 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fa93b2a-230c-4dfa-a9da-bc7029d49552" name="Default Changelist" comment="">
+    <list default="true" id="a34047b8-31f8-4787-85a0-dbf0a4b9b436" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Oliver_O.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yodasnow.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yodasnow.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/css/default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/css/default.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/algorithmicCoding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/codingBat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/cosmonaut.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/logoBlack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/main1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/main2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/main3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/maze.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/musicFolderManagement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/nebula.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/platformer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/said.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/theNight.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/images/wac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/php/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/scss/_config.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/scss/default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footerComponent/footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/headerComponent/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/aboutMe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/contactMe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/homePage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/images.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/projects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/resume.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/resumeContect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/spacer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/todo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,28 +58,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
-  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/pages/projects.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="324">
+              <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,14 +77,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>pause</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,24 +87,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/pages/projects.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1883" />
-    <option name="y" value="142" />
-    <option name="width" value="1449" />
+    <option name="x" value="-849" />
+    <option name="y" value="-261" />
+    <option name="width" value="611" />
     <option name="height" value="781" />
   </component>
-  <component name="ProjectId" id="1budbdUnAtkt9mrrNWvLm41fGvD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,89 +112,24 @@
               <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yodasnow.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yodasnow.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="NewWatcherDialog.advanced.open" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.karma.karma_node_package_dir" value="" />
-    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
-    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
-    <property name="nodejs.jest.jest_package" value="" />
-    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
-    <property name="nodejs.protractor.protractor_package" value="" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="C:\Users\Oliver_O\Documents\GitHub\yodasnow.github.io\src\Assets\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Oliver_O\Documents\GitHub\yodasnow.github.io\src\Assets\images" />
-      <recent name="C:\Users\Oliver_O\Documents\GitHub\yodasnow.github.io\src\Assets\main1" />
-      <recent name="C:\Users\Oliver_O\Documents\GitHub\yodasnow.github.io\src\Assets\codingBat" />
+      <recent name="C:\Users\Oliver_O\Documents\GitHub\yodasnow.github.io" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -184,85 +145,52 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="js.build_tools.grunt">
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/yodasnow.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="npm start" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <package-manager value="npm" />
-      <envs />
-      <method v="2" />
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0fa93b2a-230c-4dfa-a9da-bc7029d49552" name="Default Changelist" comment="" />
-      <created>1589485984506</created>
+      <changelist id="a34047b8-31f8-4787-85a0-dbf0a4b9b436" name="Default Changelist" comment="" />
+      <created>1608675602769</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1589485984506</updated>
-      <workItem from="1589485987646" duration="362000" />
-      <workItem from="1589486445114" duration="182000" />
-      <workItem from="1589487956683" duration="1337000" />
-      <workItem from="1589555660262" duration="617000" />
-      <workItem from="1589766895199" duration="1332000" />
-      <workItem from="1589909362221" duration="3225000" />
-      <workItem from="1589996729016" duration="631000" />
-      <workItem from="1590002078046" duration="1776000" />
-      <workItem from="1590260537046" duration="13109000" />
-      <workItem from="1590285354158" duration="953000" />
-      <workItem from="1590286467443" duration="1255000" />
-      <workItem from="1590289127395" duration="291000" />
-      <workItem from="1592695558657" duration="10000" />
-      <workItem from="1592698354332" duration="3651000" />
-      <workItem from="1592765381812" duration="8372000" />
-      <workItem from="1592839734088" duration="9527000" />
-      <workItem from="1592882636718" duration="780000" />
-      <workItem from="1593541185063" duration="635000" />
-      <workItem from="1596416038456" duration="615000" />
+      <updated>1608675602769</updated>
+      <workItem from="1608675604306" duration="1016000" />
+      <workItem from="1608746004902" duration="3096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="615000" />
+    <option name="totallyTimeSpent" value="4112000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="147" width="1936" height="1056" extended-state="6" />
+    <frame x="2552" y="177" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09589041" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -271,126 +199,30 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2821" y="473" width="461" height="325" key="#File_Watchers" timestamp="1592699483376">
-      <screen x="1920" y="0" width="2560" height="1440" />
-    </state>
-    <state x="2821" y="473" width="461" height="325" key="#File_Watchers/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592699483376" />
-    <state x="2654" y="364" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592698802077">
-      <screen x="1920" y="0" width="2560" height="1440" />
-    </state>
-    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589486640822" />
-    <state x="2654" y="364" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592698802077" />
-    <state x="2906" y="388" width="578" height="626" key="#npm_start" timestamp="1592698483159">
-      <screen x="1920" y="0" width="2560" height="1440" />
-    </state>
-    <state x="2906" y="388" width="578" height="626" key="#npm_start/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592698483159" />
-    <state x="2994" y="482" width="659" height="681" key="EditFileWatcherDialog" timestamp="1592699482165">
-      <screen x="1920" y="0" width="2560" height="1440" />
-    </state>
-    <state x="2994" y="482" width="659" height="681" key="EditFileWatcherDialog/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592699482165" />
-    <state x="3111" y="461" key="FileChooserDialogImpl" timestamp="1592699315844">
-      <screen x="1920" y="0" width="2560" height="1440" />
-    </state>
-    <state x="3111" y="461" key="FileChooserDialogImpl/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592699315844" />
-    <state width="2537" height="285" key="GridCell.Tab.0.bottom" timestamp="1593541819545">
-      <screen x="1920" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589489661131" />
-    <state width="2537" height="285" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1593541819545" />
-    <state width="2537" height="285" key="GridCell.Tab.0.center" timestamp="1593541819545">
-      <screen x="1920" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589489661131" />
-    <state width="2537" height="285" key="GridCell.Tab.0.center/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1593541819545" />
-    <state width="2537" height="285" key="GridCell.Tab.0.left" timestamp="1593541819544">
-      <screen x="1920" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589489661131" />
-    <state width="2537" height="285" key="GridCell.Tab.0.left/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1593541819544" />
-    <state width="2537" height="285" key="GridCell.Tab.0.right" timestamp="1593541819545">
-      <screen x="1920" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589489661131" />
-    <state width="2537" height="285" key="GridCell.Tab.0.right/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1593541819545" />
-    <state x="1115" y="623" key="NewPhpFileDialog" timestamp="1589487229038">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1115" y="623" key="NewPhpFileDialog/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589487229038" />
-    <state x="781" y="344" key="SettingsEditor" timestamp="1589486093134">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/-1920.155.1920.1040/2560.168.1920.1040@0.0.2560.1400" timestamp="1589486093134" />
-    <state x="2857" y="344" width="676" height="714" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592766098969">
-      <screen x="1920" y="0" width="2560" height="1440" />
-    </state>
-    <state x="2857" y="344" width="676" height="714" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592766098969" />
-    <state x="2863" y="320" key="search.everywhere.popup" timestamp="1592769759441">
-      <screen x="1920" y="0" width="2560" height="1440" />
-    </state>
-    <state x="2863" y="320" key="search.everywhere.popup/1920.0.2560.1440/0.180.1920.1080/4480.180.1920.1080@1920.0.2560.1440" timestamp="1592769759441" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/pages/projects.js">
+    <entry file="file://$PROJECT_DIR$/carousel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        <state relative-caret-position="697">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keyboard.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/award.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Assets/scss/default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="249" column="8" selection-start-line="249" selection-start-column="3" selection-end-line="249" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#162#219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
