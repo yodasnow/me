@@ -15,6 +15,30 @@
 
   <script src="https://use.fontawesome.com/a01b30a5cb.js"></script>
 
+  <script type="text/javascript">
+    const desiredRepo = "me";
+    const dateTagClass = ".date";
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        let repos = JSON.parse(this.responseText);
+        repos.forEach((repo)=>{
+          if (repo.name == desiredRepo) {
+            var splitted = repo.updated_at.split("-");
+            var splittedSecondHalf = splitted[2].split("T");
+            var day = splittedSecondHalf[0];
+            var month = splitted[1];
+            var year = splitted[0];
+            document.getElementById('last-modified').textContent =`Last updated: ${year}-${month}-${day}`;
+          }
+        });
+      }
+    };
+    xhttp.open("GET", "https://api.github.com/users/yodasnow/repos", true);
+    xhttp.send();
+  </script>
+
 </head>
 <body>
 
@@ -34,7 +58,7 @@
             <a class="nav-link active" aria-current="page" href="hobbies.html">Skills</a>
           </li>
         </ul>
-        <h4>LOGO HERE</h4>
+        <img src="Assets/Images/Logo/logo-without.svg" style="max-height: 2.5rem">
       </div>
     </div>
   </nav>
