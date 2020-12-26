@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a34047b8-31f8-4787-85a0-dbf0a4b9b436" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CSS/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CSS/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/award.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Headers/award.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/code.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Headers/code.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/game.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Headers/game.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/keyboard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/music.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Headers/music.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/person.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Headers/person.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/website.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Headers/website.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/hobbies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -29,11 +20,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="146" column="77" selection-start-line="146" selection-start-column="76" selection-end-line="146" selection-end-column="77" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="70" lean-forward="true" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -52,9 +42,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hobbies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="799">
+              <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
               <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -90,8 +81,8 @@
         <option value="$PROJECT_DIR$/custom.css" />
         <option value="$PROJECT_DIR$/starter-template.css" />
         <option value="$PROJECT_DIR$/Assets/CSS/custom.css" />
-        <option value="$PROJECT_DIR$/hobbies.html" />
         <option value="$PROJECT_DIR$/Assets/Images/keyboard.svg" />
+        <option value="$PROJECT_DIR$/hobbies.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -224,11 +215,12 @@
       <workItem from="1608746004902" duration="11408000" />
       <workItem from="1608843476900" duration="4790000" />
       <workItem from="1608932366765" duration="4915000" />
+      <workItem from="1608954254157" duration="205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22129000" />
+    <option name="totallyTimeSpent" value="22334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-253" width="1096" height="1896" extended-state="6" />
@@ -291,11 +283,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Images/Carousel/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Images/TEST3.svg" />
+    <entry file="file://$PROJECT_DIR$/Assets/Images/Headers/person.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Images/test2.jpeg" />
+    <entry file="file://$PROJECT_DIR$/Assets/Images/test1.svg" />
+    <entry file="file://$PROJECT_DIR$/Assets/Images/Headers/music.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Images/keyboard-svgrepo-com (3).svg" />
+    <entry file="file://$PROJECT_DIR$/Assets/Images/test2.svg" />
+    <entry file="file://$PROJECT_DIR$/Assets/Images/method-draw-image.svg" />
+    <entry file="file://$PROJECT_DIR$/Assets/Images/Logo/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Images/Logo/logo-horizontal-B.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Images/keyboard.svg" />
     <entry file="file://$PROJECT_DIR$/hobbies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="799">
+          <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
           <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -310,52 +325,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/Carousel/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/TEST3.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/Headers/person.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/method-draw-image.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/test2.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/test1.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/Headers/music.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/keyboard-svgrepo-com (3).svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/test2.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/method-draw-image.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/Logo/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/Logo/logo-horizontal-B.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Images/keyboard.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="146" column="77" selection-start-line="146" selection-start-column="76" selection-end-line="146" selection-end-column="77" />
+        <state relative-caret-position="1156">
+          <caret line="68" column="70" lean-forward="true" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
