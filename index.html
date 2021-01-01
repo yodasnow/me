@@ -1,0 +1,285 @@
+<!--
+Vectors - https://www.svgrepo.com/
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oliver Odendaal</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="Assets/CSS/custom.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        const desiredRepo = "me";
+        const dateTagClass = ".date";
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                let repos = JSON.parse(this.responseText);
+                repos.forEach((repo)=>{
+                    if (repo.name == desiredRepo) {
+                        var splitted = repo.updated_at.split("-");
+                        var splittedSecondHalf = splitted[2].split("T");
+                        var day = splittedSecondHalf[0];
+                        var month = splitted[1];
+                        var year = splitted[0];
+                        document.getElementById('last-modified').textContent =`Last updated: ${year}-${month}-${day}`;
+                    }
+                });
+            }
+        };
+        xhttp.open("GET", "https://api.github.com/users/yodasnow/repos", true);
+        xhttp.send();
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135109533-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-135109533-1');
+    </script>
+
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://github.com/yodasnow">Oliver Odendaal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="hobbies.html">Skills</a>
+                    </li>
+                </ul>
+                <img src="Assets/Images/Logo/logo-without.svg" style="max-height: 2.5rem">
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Assets/Images/Logo/logo-horizontal-B.svg" style="object-fit:contain">
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/Images/Carousel/1.jpg" style="height:auto;">
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/Images/Carousel/2.jpg" style="height:auto; top:50%; transform: translateY(-52%)">
+            </div>
+            <!--<div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>One more for good measure.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="Assets/Images/Headers/person.svg" width="140" height="140">
+                <h2>About me</h2>
+                <p>My name is Oliver Odendaal and I am a current student at University of Waterloo taking Computer
+                    Science (2025). I have mainly done algorithmic programming, but have done a wide variety of other
+                    topics. I enjoy taking on different projects whether I get to finish them or not. I currently know
+                    how to program well in Python, Java and C++ and have been learning HTML, Javascript and CSS. I have
+                    been trying to transition to Linux instead of Windows as it gives me a lot more freedom (and I enjoy
+                    the learning curve).
+                </p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="Assets/Images/Headers/climbing.svg" width="140" height="140">
+                <h2>Hobbies/Interests/Skills</h2>
+                <p>My hobbies mainly revolve around computers. I love both building them and using them for programming
+                    and others tasks. I enjoy all types of programing, but I tend to enjoy more algorithmic programming
+                    and some game development. I currently have one past attempt at making a game on my GitHub and I am
+                    gearing up towards a new game idea as I really want to get a more finished product. I also enjoy
+                    rock climbing, bouldering, scuba diving and motorcycling (both on-road and off-road). I also enjoy
+                    mechanical things such as working on motorcycles.
+                </p>
+                <p><a class="btn btn-secondary" href="hobbies.html" role="button">View more details about my skills</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="Assets/Images/Headers/award.svg" width="140" height="140">
+                <h2>Achievements</h2>
+                <ul style="list-style-position: inside">
+                    <li>Thompson Prize for ICS4U - highest mark in grade</li>
+                    <li>Duke of Edinburgh Gold, Silver and Bronze</li>
+                    <li>G and M2 license</li>
+                    <li>NLS Lifeguard + SFA (CPR-C)</li>
+                    <li>Change the World - Certificate of Recognition (Ontario Youth Volunteer Challenge)</li>
+                    <li>Provincial Finalist ECOO 2019</li>
+                </ul>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <h2 style="font-size: 60px; text-align: center; padding-bottom: 75px;">Programming Projects</h2>
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <a href="https://github.com/yodasnow/me" style="text-decoration: none"><h2 class="featurette-heading">Personal Website</h2></a>
+                <p class="lead">This is my personal website and what you are viewing right now! It is both a way for me
+                    to practice my web development skills and show off some of my accomplishments. This is at least the
+                    third iteration with many others that never even made it up. The first iteration published used a
+                    template as I did not really care about the CSS side of it. The second iteration used ReactJS as I
+                    thought that it would be a smart idea to use it, but I now know that for something simple like this,
+                    React is just pure overkill. With this version it just uses Bootstrap and regular HTML and JS.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <a href="https://github.com/yodasnow/me"><img src="Assets/Images/Headers/website.svg" class="img-center"></a>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <a href="https://github.com/yodasnow/Algorithmic-Coding" style="text-decoration: none"><h2 class="featurette-heading">Algorithmic Coding</h2></a>
+                <p class="lead">This is my main repository for my algorithmic coding. It covers content from the CCC,
+                    ECOO, CodingBat, Project Euler and other smaller competitions (all hosted on DMOJ apart from
+                    CodingBat and ProjectEuler). I try to keep adding to this repository, but I end up getting
+                    sidetracked a lot so it is either constantly being updated or or in a bit of a pause.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <a href="https://github.com/yodasnow/Algorithmic-Coding"><img src="Assets/Images/Headers/code.svg" class="img-center"></a>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <a href="https://github.com/yodasnow/Platformer" style="text-decoration: none"><h2 class="featurette-heading">Platformer Game</h2></a>
+                <p class="lead">This repository has the code for a game that I tried to code. It is nowhere close to
+                    being finished and has been completely dropped. It was made using C++ with SDL2 for graphics and
+                    SFML for the networking side. I learned a lot about the libraries and lower-level game design and
+                    networking. It was definitely an eye-opener on game development and I think that I will try to have
+                    a new project that I work on using the same or similar libraries.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <a href="https://github.com/yodasnow/Platformer"><img src="Assets/Images/Headers/game.svg" class="img-center"></a>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <a href="https://github.com/yodasnow/MusicFolderManagement" style="text-decoration: none"><h2 class="featurette-heading">Music Folder Management</h2></a>
+                <p class="lead">This entire repository exists because of my Plex server. I downloaded music from lots of
+                    different sources and ended up with some songs with no ID3V2 tags and when I manually added them, I
+                    ended up with a folder of all different types of songs from different artists. What the main program
+                    does is use the ID3V2 tags as a guide for how to restructure the directory of songs. The renamer
+                    program is useful when the filename of the song is already relevant to the metadata, in which case
+                    you can set the ID3V2 name to be the filename and have different artist and album data.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <a href="https://github.com/yodasnow/MusicFolderManagement"><img src="Assets/Images/Headers/music.svg" class="img-center"></a>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row">
+            <div class="col-lg-6" style="text-align:right; padding-right:50px">
+                <h2 class="featurette-heading">Contact Me</h2>
+                <p class="lead">
+                    Contact email: <a href="mailto:oodendaa@uwaterloo.ca">oodendaa@uwaterloo.ca</a>
+                </p>
+            </div>
+            <div class="col-lg-6" style="padding-left:50px">
+                <h2 class="featurette-heading">Resume</h2>
+                <p class="lead">If you would like a copy of my resume please contact me over email.</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <ul style="text-align:center">
+            <li class="footer-align">Made with Bootstrap</li>
+            <li class="footer-align">Hosted on Github</li>
+            <li class="footer-align" id="last-modified"></li>
+            <li class="footer-align"><a href="https://www.svgrepo.com/" style="text-decoration: none">Vector image source</a></li>
+            <li class="footer-align"><a href="#" style="text-decoration: none">Back to top</a></li>
+        </ul>
+    </footer>
+</main>
+
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oliver Odendaal</title>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="Assets/CSS/custom.css" rel="stylesheet">
+
+  <script src="https://use.fontawesome.com/a01b30a5cb.js"></script>
+
+  <script type="text/javascript">
+    const desiredRepo = "me";
+    const dateTagClass = ".date";
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        let repos = JSON.parse(this.responseText);
+        repos.forEach((repo)=>{
+          if (repo.name == desiredRepo) {
+            var splitted = repo.updated_at.split("-");
+            var splittedSecondHalf = splitted[2].split("T");
+            var day = splittedSecondHalf[0];
+            var month = splitted[1];
+            var year = splitted[0];
+            document.getElementById('last-modified').textContent =`Last updated: ${year}-${month}-${day}`;
+          }
+        });
+      }
+    };
+    xhttp.open("GET", "https://api.github.com/users/yodasnow/repos", true);
+    xhttp.send();
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135109533-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135109533-1');
+  </script>
+
+
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://github.com/yodasnow">Oliver Odendaal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="hobbies.html">Skills</a>
+          </li>
+        </ul>
+        <img src="Assets/Images/Logo/logo-without.svg" style="max-height: 2.5rem">
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+
+  <div class="starter-template text-center py-5 px-3">
+    <h1>My skills</h1>
+
+    <hr class="featurette-divider" style="margin-top:20px; margin-bottom:30px">
+
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-3">
+          <h2>Programming</h2>
+          <div style="display:inline-block; text-align:left">
+            <ul>
+              <li>Python</li>
+              <li>C++</li>
+              <li>Java</li>
+              <li>Web Development</li>
+              <ul>
+                <li>HTML</li>
+                <li>JS</li>
+                <li>CSS/SCSS</li>
+                <li>ReactJS</li>
+              </ul>
+              <li>R</li>
+              <li>Racket</li>
+            </ul>
+          </div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+          <h2>Computer Skills</h2>
+          <div style="display:inline-block; text-align:left">
+            <ul>
+              <li>Windows</li>
+              <li>Linux (Manjaro & CentOS)</li>
+              <li>MacOS</li>
+              <li>Office (Microsoft, Libre, Open)</li>
+              <li>General Computer Software</li>
+              <li>3D Modelling</li>
+            </ul>
+          </div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+          <h2>Hardware</h2>
+          <div style="display:inline-block; text-align:left">
+            <ul>
+              <li>Soldering</li>
+              <li>3D Printing</li>
+              <li>Arduino</li>
+              <li>Raspberry Pi</li>
+              <li style="font-weight:bold">Built own computer</li>
+              <li style="font-weight:bold">Built own mechanical keyboard</li>
+            </ul>
+          </div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+          <h2>Soft Skills</h2>
+          <div style="display:inline-block; text-align:left">
+            <ul>
+              <li>Problem solving</li>
+              <li>Critical thinking</li>
+              <li>Flexibility</li>
+              <li>Communication</li>
+              <li>Teamwork</li>
+            </ul>
+          </div>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <ul style="text-align:center">
+      <li class="footer-align">Made with Bootstrap</li>
+      <li class="footer-align">Hosted on Github</li>
+      <li class="footer-align" id="last-modified"></li>
+      <li class="footer-align"><a href="https://www.svgrepo.com/" style="text-decoration: none">Vector image source</a></li>
+      <li class="footer-align"><a href="#" style="text-decoration: none">Back to top</a></li>
+    </ul>
+  </footer>
+
+</main><!-- /.container -->
+
+
+
+</body>
+</html>
