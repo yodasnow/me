@@ -1,5 +1,3 @@
 ## My website
 
-Heyo!
-
-Thanks for checking out my website and/or GitHub. This website was made using React which means that code wise it is slighly more interesting than a plain old HTML and CSS website. I also opted to use SCSS and minify the CSS as I prefer the formatting options of SCSS as it reminds me of class structures. If you have any questions about anything I did in my website or anything in general, feel free to contact me (my contact information is on my website).
+Thanks for checking out my website! This is at least the third public iteration of it and it has gone through many private versions too that never made the cut to be published. This version uses bootstrap and some of their examples to make what I view as the best version so far. The first version was just a straight copy paste of a public template as I did not want to have to learn any CSS as I found it troublesome to work with. The most recent prior version used ReactJS as I wanted to get some experience using it and seeing the capabilities that come with it. It turns out that it was more powerful than I needed and made it more complicated to work on, which is why I made the choice to go back to regular HTML, CSS and JS. If you have any questions feel free to contact me.
